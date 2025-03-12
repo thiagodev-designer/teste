@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize('menssagens','root','',{
-    host: 'localhost',
+    host: 'http://localhost:8282/phpmyadmin/',
   dialect: 'mysql'
 })
 
