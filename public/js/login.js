@@ -93,11 +93,7 @@ Cadastrar.addEventListener('submit',async (e)=>{
     }
 })
 
-if(localStorage.getItem('Usuario')){
-    location.href='home.html'
-}else{
-    location.href='index.html'
-}
+
 
 
 
